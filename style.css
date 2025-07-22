@@ -117,6 +117,9 @@ h4{
     text-align: center;
     flex-wrap: wrap;
 }
+.specialPage h4{
+    font-family: sans-serif;
+}
 .dishes{
     width:100%;
     display: flex;
@@ -179,6 +182,30 @@ h4{
   padding: 8px 15px;
   border-radius: 8px;
   cursor: pointer;
+}
+
+.thaliText{
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.thaliText #text h1{
+    font-size: 50px;
+}
+
+.thaliText p{
+    color: #6b7280;
+    font-size: 22px;
+}
+.thaliText img{
+    height: 500px;
+  filter: drop-shadow(0 0 25px rgba(230, 126, 34, 0.6));
+}
+
+.thaliText button{
+    border-radius: 0.5rem;
+    padding: 15px 30px;
 }
 
 
