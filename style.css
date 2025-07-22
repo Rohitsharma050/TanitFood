@@ -1,0 +1,185 @@
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: white;
+    margin: 0;
+    padding: 0;
+}
+html {
+  scroll-behavior: smooth;
+}
+
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 20px;
+    height: 60px;
+    padding-top: 20px;
+    font-size: 22px;
+    
+    margin-left: 20px;
+}
+
+.logo a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    margin-left: 50px;
+    
+    
+}
+
+.food-orange {
+    font-weight: 600px;
+    color: #fc7f09;
+}
+
+.man-black {
+    color: black;
+    font-weight: 600px;
+
+}
+
+.links {
+    display: flex;
+    gap: 40px;
+}
+
+.links a {
+    text-decoration: none;
+    color:black;
+    font-weight:bolder;
+    font-size: 20px;
+    transition: color 0.3s ease;
+}
+
+.links a:hover {
+    color: #fc7f09;
+}
+
+button {
+    padding: 8px 16px;
+    background-color: #fc7f09;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    font-size: 18px;
+    margin-right: 60px;
+}
+
+button:hover {
+    background-color: #e96f00;
+}
+#homePageImage{
+    height: 100px
+}
+
+.imageText{
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-evenly;
+    font-size: larger;
+    margin-top: 100px;
+    align-items: center;
+
+}
+.highlight{
+
+    color:  #fc820f;
+}
+
+h1
+{
+    font-size: 80px;
+}
+h4{
+    
+    opacity: 1;
+    color: #6b7280;
+    
+}
+#getStarted{
+    border-radius: 0.5rem;
+    padding: 15px 30px;
+
+}
+.specialPage h1{
+    font-size: 50px;
+
+}
+.specialPage{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    flex-wrap: wrap;
+}
+.dishes{
+    width:100%;
+    display: flex;
+    justify-content: center;
+    gap: 30px;
+    padding:20px;
+}
+.dish-card{
+    width: 300px;
+    background-color: #fff;
+    padding: 100px;
+    text-align: center;
+    
+   
+}
+.dish-card img {
+  width: 100%;
+  border-radius: 12px;
+  margin-bottom: 15px;
+  filter: drop-shadow(10px 10px 10px rgba(0, 0, 0, 0.3));
+
+  
+}
+
+.dish-card h2 {
+  font-size: 30px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.dish-card p {
+  font-size: 20px;
+  color: #666;
+  margin-bottom: 15px;
+  line-height: 1.4;
+}
+
+.stars {
+  font-size: 18px;
+  color: #f4c150;
+  margin-bottom: 15px;
+}
+
+.price-cart {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.price {
+  font-size: 18px;
+  font-weight: bold;
+  color: #e67e22;
+}
+
+.cart-btn {
+  background-color: #e67e22;
+  color: white;
+  border: none;
+  padding: 8px 15px;
+  border-radius: 8px;
+  cursor: pointer;
+}
+
+
+
