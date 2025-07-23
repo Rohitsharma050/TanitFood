@@ -5,7 +5,7 @@ body {
     padding: 0;
 }
 html {
-  scroll-behavior: smooth;
+  scroll-behavior:smooth;
 }
 
 .navbar {
@@ -32,11 +32,16 @@ html {
 .food-orange {
     font-weight: 600px;
     color: #fc7f09;
+    font-size: 40px;
+    letter-spacing: -2px;
 }
 
 .man-black {
     color: black;
     font-weight: 600px;
+    font-size: 40px;
+    letter-spacing: -2px;
+
 
 }
 
