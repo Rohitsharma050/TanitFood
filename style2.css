@@ -1,0 +1,48 @@
+.facilities
+{
+    display: flex;
+    justify-content:space-between;
+    flex-direction: row;
+    padding: 100px;
+    padding-top: 250px;
+
+}
+.facilitycard{
+    width: 400px;
+
+    display: flex;
+    flex-direction: column;
+    padding: 60px;
+    border-radius: 80px;
+    background-color: white;
+    filter: drop-shadow(0 0 15px rgba(82, 80, 78, 0.2) );
+}
+
+.facilitycard img{
+    height:100px;
+    width: 100px;
+    filter: drop-shadow();
+}
+
+.facilitycard #phone-call{
+    filter: drop-shadow(0px 0px 8px rgba(9, 4, 0, 0.6));
+}
+.facilitycard #delivery{
+    filter: drop-shadow(0px 0px 8px rgba(255, 125, 19, 0.8));
+}
+.facilitycard #star{
+    filter: drop-shadow(0px 0px 8px rgba(82, 65, 234, 0.6));
+}
+.facilitycard h2{
+    font-size: 1cm;
+}
+.facilitycard p{
+    font-size:23px;
+    color: #6b7280;
+}
+
+.facilitycard a{
+    text-decoration: none;
+    color: #e67e22;
+    font-size: 25px;
+}
